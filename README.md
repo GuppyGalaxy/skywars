@@ -5,7 +5,7 @@ A script that will manage the runtime of the SkyWars game servers on Guppy Galax
 ## Configuration
 
 You will need to create a config.json file following this general format
-```JSON
+```JavaScript
 { 
     "available_game_server_ports": [1234, 1235, 12744, 25566], // Required, include at least one port
     "server_setups": [ // Required, include at least one setup

@@ -1,0 +1,11 @@
+{
+  "name": "guppygalaxy-skywars",
+  "version": "1.0.0",
+  "description": "Manage SkyWars servers for Guppy Galaxy",
+  "main": "index.js",
+  "scripts": {
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}

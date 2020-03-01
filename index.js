@@ -49,7 +49,7 @@ async function setupServerEnvironment(server_port, server_config) {
     } else {
         args.push("-Xms512M");
     }
-    args.push("-Dcom.mojang.eula.agree=true", "-jar", jar, "--host", "127.0.0.1", "--port", server_port.toString());
+    args.push("-Dcom.mojang.eula.agree=true", "-jar", jar, "--port", server_port.toString());
     if (server_config.max_players) {
         args.push("--max-players", server_config.max_players.toString());
     }
